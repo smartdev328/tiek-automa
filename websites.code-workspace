@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "name": "site",
+      "path": "packages/site"
+    },
+    {
+      "name": "websites",
+      "path": "."
+    }
+  ],
+  "settings": {}
+}
