@@ -1,5 +1,6 @@
 ﻿---
 layout: ../../layouts/MarkdownLayout.astro
+title: Terms of Service | ProAutoma
 ---
 Proautoma, Inc. Terms of Service
 

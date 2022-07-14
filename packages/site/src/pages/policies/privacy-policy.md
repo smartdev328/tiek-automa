@@ -1,5 +1,6 @@
 ﻿---
 layout: ../../layouts/MarkdownLayout.astro
+title: Privacy Policy | ProAutoma
 ---
 
 ProAutoma, Inc. Privacy Policy

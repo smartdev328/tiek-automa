@@ -1,10 +1,6 @@
 ---
 	import "../styles/global.css"
-	export interface Props {
-		title: string;
-	}
-
-	const { title } = Astro.props as Props;
+	const { content } = Astro.props
 ---
 
 <!DOCTYPE html>
@@ -14,7 +10,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
 	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
-	<title>{title}</title>
+	<title>{content.title}</title>
 </head>
 
 <body class="prose lg:prose-xl mx-4">

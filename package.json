@@ -6,10 +6,10 @@
   "main": "index.js",
   "scripts": {
     "site-dev": "pnpm -C packages/site run dev",
-    "site-prod": "pnpm local -C packages/site",
+    "site-prod": "pnpm -C packages/site local",
     "site-build": "pnpm -C packages/site run build",
     "dev": "concurrently pnpm:site-dev",
-    "build": "pnpm build",
+    "build": "pnpm site-build",
     "start": "concurrently pnpm:site-prod"
   },
   "author": "",

@@ -1,8 +1,9 @@
 ﻿---
 layout: ../../layouts/MarkdownLayout.astro
+title: Cookie Policy | ProAutoma
 ---
 
-Proautoma, Inc. Cookie Policy
+ProAutoma, Inc. Cookie Policy
 Last updated July 20, 2022
 
 

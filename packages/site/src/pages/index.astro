@@ -1,7 +1,5 @@
 ---
   import Layout from '../layouts/Layout.astro'
-  import SiteHeader from '../components/SiteHeader.astro'
-  import SiteFooter from '../components/SiteFooter.astro'
   import { Icon } from 'astro-icon'
 
   import bars from '/assets/bars.svg'
@@ -185,7 +183,7 @@
           Let us save you some time so you can use it for far better things.
         </span>
 
-        <a href="/console/signup">
+        <a href={APP_URI + "/console/signup" }>
           <button class="bg-white rounded-lg text-black text-2xl px-6 py-2">
             Get Started
           </button>
