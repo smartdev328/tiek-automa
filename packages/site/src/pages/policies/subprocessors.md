@@ -1,3 +1,6 @@
+---
+layout: ../../layouts/MarkdownLayout.astro
+---
 # ProAutoma LLC subprocessors
 
 ProAutoma uses third party subprocessors, such as cloud computing providers and customer support software, to provide our services. We enter into GDPR-compliant data processing agreements with each subprocessor, extending [GDPR safeguards](/privacy/gdpr.md) everywhere personal data is processed.

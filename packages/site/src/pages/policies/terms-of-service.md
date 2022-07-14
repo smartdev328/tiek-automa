@@ -1,12 +1,12 @@
 ﻿---
-layout: ../../components/MDLayout.astro
+layout: ../../layouts/MarkdownLayout.astro
 ---
-ProAutoma LLC Terms of Service
+Proautoma, Inc. Terms of Service
 
 Last updated May 15, 2022
 ### AGREEMENT TO TERMS
 
-These Terms of Service constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and ProAutoma LLC (“we,” “us” or “our”), concerning your access to and use of the www.proautoma.com website and the cloud services, APIs, as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”). 
+These Terms of Service constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and Proautoma, Inc. (“we,” “us” or “our”), concerning your access to and use of the www.proautoma.com website and the cloud services, APIs, as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”). 
 
 You agree that by accessing the Site, you have read, understood, and agree to be bound by all of these Terms of Service. If you do not agree with all of these Terms of Service, then you are expressly prohibited from using the Site and you must discontinue use immediately. 
 
