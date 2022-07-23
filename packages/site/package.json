@@ -10,16 +10,17 @@
     "local": "NODE_RUN=local astro build && astro preview"
   },
   "devDependencies": {
-    "@astrojs/react": "^0.1.2",
     "@astrojs/sitemap": "^0.2.6",
-    "@astrojs/tailwind": "^0.2.1",
-    "astro": "1.0.0-beta.69",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "@astrojs/tailwind": "^0.2.4",
+    "astro": "^1.0.0-beta.73",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "dependencies": {
-    "@tailwindcss/typography": "^0.5.2",
-    "astro-icon": "^0.7.1",
+    "@astrojs/preact": "^0.5.2",
+    "@tailwindcss/typography": "^0.5.4",
+    "astro-icon": "^0.7.3",
+    "preact": "^10.10.0",
     "prettier-plugin-astro": "^0.0.12"
   }
 }
