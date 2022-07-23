@@ -1,0 +1,66 @@
+---
+  import Layout from '../layouts/Layout.astro'
+  import { Icon } from 'astro-icon'
+---
+
+<Layout title="Pricing plans | ProAutoma">
+  <div class="">
+    <div class="flex flex-col my-10 mx-auto">
+      <h1 class='text-5xl text-center font-extrabold leading-relaxed'>Plans and Pricing</h1>
+      <h2 class='text-xl text-center text-bold text-gray-600'>No surprise fees. Cancel anytime</h2>
+    </div>
+
+    <div class="p-4 grid grid-cols-1 md:grid-cols-3 gap-2 items-end place-content-center">
+      <div class="flex flex-col bg-white rounded-tr-3xl rounded-bl-3xl p-8 shadow-lg border-2">
+        <div class="flex items-center">
+          <Icon name="fe:globe" class="w-12 h-12 text-blue-600" />
+          <h1 class="ml-4 font-extrabold text-3xl leading-loose">Free plan</h1>
+        </div>
+        <h2 class="text-lg text-gray-600">For curious developers who want to be worry free</h2>
+        <h1 class="mt-4 text-center font-extrabold text-2xl text-blue-800 leading-loose">$0</h1>
+        <ul class="text-xl mt-6 leading-relaxed text-gray-800">
+          <li>50 monitors</li>
+          <li>50000 API checks</li>
+          <li>5 Users</li>
+          <li>Email, Slack, MS Team integrations</li>
+          <li>7 day data retention</li>
+        </ul>
+      </div>
+
+      <div class="flex flex-col bg-white rounded-tr-3xl rounded-bl-3xl p-8 shadow-lg border-blue-500 border-2">
+        <div class="flex items-center">
+          <Icon name="fe:globe" class="w-12 h-12 text-blue-600" />
+          <h1 class="ml-4 font-extrabold text-3xl leading-loose">Pay as you go</h1>
+        </div>
+        <h2 class="text-lg text-gray-600">For startups and small teams. Use as much as you need.</h2>
+        <h1 class="mt-4 text-center font-extrabold text-2xl text-blue-800 leading-loose">$2.8 per 10K runs</h1>
+        <ul class="text-xl mt-6 leading-relaxed text-gray-800">
+          <li>All features</li>
+          <li>Unlimited monitors</li>
+          <li>Unlimited checks</li>
+          <li>Unlimited users</li>
+          <li>All locations</li>
+          <li>All integrations</li>
+          <li>30 day data retention</li>
+        </ul>
+      </div>
+
+      <div class="flex flex-col bg-white rounded-tr-3xl rounded-bl-3xl p-10 shadow-lg border-2">
+        <div class="flex items-center">
+          <Icon name="fe:globe" class="w-12 h-12 text-blue-600" />
+          <h1 class="ml-4 font-extrabold text-3xl leading-loose">Monthly</h1>
+        </div>
+        <h2 class="text-lg text-gray-600">Get discount for commitment</h2>
+        <h1 class="mt-4 text-center font-extrabold text-2xl text-blue-800 leading-loose">$2.5 per 10K runs</h1>
+        <ul class="text-xl mt-6 leading-relaxed text-gray-800">
+          <li>All features</li>
+          <li>Unlimited monitors</li>
+          <li>30 day data retention</li>
+          <li>Overage applies</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+</Layout>
