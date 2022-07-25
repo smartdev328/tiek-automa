@@ -4,8 +4,9 @@ title: "CORS and Browser Security"
 description: "CORS and Browser Security"
 publishDate: "11 Jul 2022"
 heroImage:
-  src: "https://images.unsplash.com/photo-1519531877043-92ee44180593?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80"
+  src: "https://images.unsplash.com/photo-1494475673543-6a6a27143fc8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
   alt: "Origins"
+  class: "w-[25vw]"
 followMe:
   username: "proautomahq"
   href: "https://twitter.com/proautomahq"
