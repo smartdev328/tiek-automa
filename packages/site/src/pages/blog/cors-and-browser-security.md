@@ -46,6 +46,6 @@ In production, strive to put the frontend and backend on the same origin for spe
 
 SaaS web applications such as [ProAutoma](https://www.proautoma.com) allows one to explore APIs and websites to monitor and notify in case of failures. Ideally, the app could directly access 3rd party APIs and websites from the Browser using JS HTTP calls.  However, this fails to work if CORS is not setup.
 
-### Taeaway and Proxy Server
+### Takeaway
 
-To circumvent, ProAutoma uses its own secure Proxy Server to execute API and Website monitoring calls on behalf of the user.  And, none of the browser cookies or headers are shared with the proxy server which makes it stateless and well-controlled. However, if your needs are between mutually trusting sites, definitely, consider to use one of Access-Control-* headers and CORS to grant access.
+To circumvent browser restrictions, ProAutoma uses its own secure Proxy Server to execute API and Website monitoring calls on behalf of the user.  And, none of the browser cookies or headers are shared with the proxy server which makes it stateless and well-controlled. However, if your needs are between mutually trusting sites, definitely, consider to use one of Access-Control-* headers and CORS to grant access.
