@@ -8,8 +8,11 @@
     "site-dev": "pnpm -C packages/site run dev",
     "site-prod": "pnpm -C packages/site local",
     "site-build": "pnpm -C packages/site run build",
-    "dev": "concurrently pnpm:site-dev",
-    "build": "pnpm site-build",
+    "status-app-dev": "pnpm -C packages/status-app run dev",
+    "status-app-prod": "pnpm -C packages/status-app local",
+    "status-app-build": "pnpm -C packages/status-app run build",
+    "dev": "concurrently pnpm:site-dev pnpm:status-app-dev",
+    "build": "pnpm site-build && pnpm status-app-build",
     "start": "concurrently pnpm:site-prod"
   },
   "author": "",
