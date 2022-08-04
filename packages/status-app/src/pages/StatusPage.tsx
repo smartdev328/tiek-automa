@@ -173,6 +173,11 @@ function StatusPage() {
     document.title = 'Status Page | ProAutoma'
   }, [])
 
+  const API_SERVER =
+    process.env.NODE_ENV === 'production'
+      ? 'https://app.proautoma.com/api'
+      : 'http://localhost:8080/api'
+
   const {
     data: statusPageData,
     isLoading,
@@ -180,16 +185,17 @@ function StatusPage() {
   } = useQuery<StatusData>(
     ['status-page', id],
     async () => {
-      let resp = await axios({
+      let resp = await fetch(`${API_SERVER}/status/${id}`, {
         method: 'GET',
-        url: `/status/${id}`,
+        credentials: 'omit',
       })
-      resp.data.monitors.map((item: Monitor) => {
+      let data = await resp.json()
+      data.monitors.map((item: Monitor) => {
         item.uptime24 = uptime24(item)
         item.uptime7d = uptime7d(item)
       })
-      setSortedMonitors(resp.data?.monitors)
-      return resp.data
+      setSortedMonitors(data?.monitors)
+      return data
     },
     {
       refetchInterval: 60000,
