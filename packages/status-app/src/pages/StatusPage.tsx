@@ -2,7 +2,6 @@ import {
   Box,
   Flex,
   Icon,
-  Link,
   Table,
   TableContainer,
   Tbody,
