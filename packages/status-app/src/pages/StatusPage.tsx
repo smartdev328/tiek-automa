@@ -2,6 +2,7 @@ import {
   Box,
   Flex,
   Icon,
+  Link,
   Table,
   TableContainer,
   Tbody,
@@ -14,8 +15,7 @@ import {
 import { useEffect, useState } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
-import axios from 'axios'
-import { Header, StatsBox, Text } from '../components'
+import { Header, Footer, StatsBox, Text } from '../components'
 import { Monitor, StatusData } from '../types'
 import { FiPause, FiTrendingUp, FiTrendingDown, FiChevronDown, FiChevronUp } from 'react-icons/fi'
 
@@ -170,7 +170,7 @@ function StatusPage() {
   const [sortedMonitors, setSortedMonitors] = useState<Monitor[]>([])
 
   useEffect(() => {
-    document.title = 'Status Page | ProAutoma'
+    document.title = 'Status Page'
   }, [])
 
   const API_SERVER =
@@ -357,14 +357,7 @@ function StatusPage() {
             </Table>
           </TableContainer>
         </Box>
-        <Flex justifyContent='flex-end' py='4'>
-          <Text variant='paragraph' color='gray.300'>
-            Powered by&nbsp;
-          </Text>
-          <Text variant='text-field' color='darkblue.100'>
-            ProAutoma
-          </Text>
-        </Flex>
+        <Footer />
       </Box>
     </Box>
   )
