@@ -1,26 +1,26 @@
 ---
-	import "../styles/global.css"
 	import SiteHeader from '../components/SiteHeader.astro'
 	import SiteFooter from '../components/SiteFooter.astro'
+	import BaseHead from "../components/BaseHead.astro";
+
+	import "../styles/global.css"
 
 	export interface Props {
 		title: string;
+		description: string
 	}
 
-	const { title } = Astro.props as Props;
+	const { title, description } = Astro.props as Props;
 ---
 
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width">
-	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
-	<title>{title}</title>
+	<BaseHead title={title} description={description} />
 </head>
 
-<body class="home max-w-6xl min-h-screen mx-auto px-4 bg-neutral-100">
+<body class="font-inter home max-w-6xl min-h-screen mx-auto px-4 bg-neutral-100">
 	<SiteHeader />
 	<slot />
 	<SiteFooter />
