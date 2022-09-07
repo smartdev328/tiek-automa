@@ -9,6 +9,7 @@
 	import * as CONFIG from "../config";
 
 
+	import BaseHead from "../../components/BaseHead.astro";
 	import SiteHeader from "../../components/SiteHeader.astro";
 	import SiteFooter from "../../components/SiteFooter.astro";
 
@@ -22,9 +23,10 @@
 <html dir={content.dir ?? "ltr" } lang={content.lang ?? "en-us" } class="initial">
 
 <head>
+	<BaseHead title={content.title ? `${content.title} 🚀 ${CONFIG.SITE.title}` : CONFIG.SITE.title} description={""} />
 	<HeadCommon />
 	<HeadSEO {content} canonicalURL={Astro.url} />
-	<title>{content.title ? `${content.title} 🚀 ${CONFIG.SITE.title}` : CONFIG.SITE.title}</title>
+
 	<style>
 		body {
 			width: 100%;
