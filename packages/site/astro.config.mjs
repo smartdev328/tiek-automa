@@ -9,6 +9,9 @@ export default defineConfig({
     port: 3001,
   },
   site: 'https://www.proautoma.com',
+  legacy: {
+    astroFlavoredMarkdown: true,
+  },
   integrations: [sitemap(), preact(), tailwind()],
   vite: {
     ssr: {
