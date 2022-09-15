@@ -1,7 +1,5 @@
 ---
-  import BaseHead from "../components/BaseHead.astro";
-  import SiteHeader from "../components/SiteHeader.astro";
-  import SiteFooter from "../components/SiteFooter.astro";
+  import Layout from '../layouts/Layout.astro'
 
   import BlogPostPreview from "../blog/components/BlogPostPreview.astro";
 
@@ -17,14 +15,7 @@
   });
 ---
 
-<html lang="en">
-
-<head>
-  <BaseHead title={title} description={description} />
-</head>
-
-<body class="home max-w-6xl min-h-screen mx-auto px-4 bg-neutral-100">
-  <SiteHeader />
+<Layout title={title} description={description}>
   <div class="wrapper">
     <main class="content">
       <section class="intro">
@@ -39,10 +30,7 @@
       </section>
     </main>
   </div>
-  <SiteFooter />
-</body>
-
-</html>
+</Layout>
 
 <style>
   .content {
@@ -56,7 +44,7 @@
     border-bottom: 4px solid var(--theme-divider);
   }
 
-  h1 {
+  .intro h1 {
     font-size: 2.5rem;
     font-weight: 700;
   }

@@ -1,18 +1,38 @@
 ---
+  import logoTitle from '/assets/logo-white.svg'
 ---
 
-<div class="bg-darkslate text-gray-600 text-sm py-8">
-  <div class="flex items-center justify-center">
-    <span>Copyright © 2022 ProAutoma, Inc. All rights reserved</span>
-    <span class="px-4">|</span>
-    <a href="/policies/terms-of-service/">Terms of Service</a>
-    <span class="px-4">|</span>
-    <a href="/policies/privacy-policy/">Privacy Policy</a>
+<div class="text-white text-sm bg-footer-dark">
+  <div class="max-w-6xl px-4 mx-auto">
+    <div class="flex py-10">
+      <div>
+        <a href="/" class="w-auto">
+          <img class="w-56 min-w-full" src={logoTitle} />
+        </a>
+      </div>
+      <div class="flex-1 flex items-start justify-end">
+        <ul class="ml-24">
+          <li class="text-base mb-4 text-gray-400"><strong>Company</strong></li>
+          <li class="text-gray-100 mb-2"><a href="/about">About us</a></li>
+          <li class="text-gray-100 mb-2"><a href="/">Contact us</a></li>
+        </ul>
+        <ul class="ml-24">
+          <li class="text-base mb-4 text-gray-400"><strong>Legal</strong></li>
+          <li class="text-gray-100 mb-2"><a href="/policies/terms-of-service/">Terms of Service</a></li>
+          <li class="text-gray-100 mb-2"><a href="/policies/privacy-policy/">Privacy Policy</a></li>
+          <li class="text-gray-100"><a href="/policies/cookie-policy/">Cookie Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-gray-600 border-t"></div>
+    <div class="flex items-center justify-center py-6">
+      <span>Copyright © 2022 ProAutoma, Inc. All rights reserved</span>
+    </div>
   </div>
 </div>
 
 <style>
-  .bg-gradient-callout {
-    background-image: linear-gradient(114deg, #fe4272 35%, #f98b4c 83%);
+  .bg-footer-dark {
+    background: #25292F;
   }
 </style>

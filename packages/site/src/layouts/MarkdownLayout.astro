@@ -1,4 +1,7 @@
 ---
+	import SiteHeader from '../components/SiteHeader.astro'
+	import SiteFooter from '../components/SiteFooter.astro'
+
 	import "../styles/global.css"
 	const { content } = Astro.props
 ---
@@ -13,8 +16,15 @@
 	<title>{content.title}</title>
 </head>
 
-<body class="home max-w-6xl min-h-screen mx-auto px-4 bg-neutral-100 prose lg:prose-xl">
-	<slot />
+
+<body class="font-inter home bg-neutral-100">
+	<div class="max-w-6xl px-4 mx-auto">
+		<SiteHeader />
+	</div>
+	<div class="max-w-6xl min-h-screen px-4 mx-auto">
+		<slot />
+	</div>
+	<SiteFooter />
 </body>
 
 </html>
