@@ -4,29 +4,37 @@
 
 <div class="text-white text-sm bg-footer-dark">
   <div class="max-w-6xl px-4 mx-auto">
-    <div class="flex py-10">
+    <div class="flex flex-col md:flex-row py-10">
       <div>
-        <a href="/" class="w-auto">
-          <img class="w-56 min-w-full" src={logoTitle} />
-        </a>
+        <div class="text-2xl lg:text-3xl text-wrap">Questions? Comments?<br>Concerns?</div>
       </div>
-      <div class="flex-1 flex items-start justify-end">
-        <ul class="ml-24">
+      <div class="flex-1 flex-col md:flex-row flex items-start justify-end">
+        <ul class="mt-6 md:mt-0 md:ml-16 lg:ml-24">
           <li class="text-base mb-4 text-gray-400"><strong>Company</strong></li>
-          <li class="text-gray-100 mb-2"><a href="/about">About us</a></li>
-          <li class="text-gray-100 mb-2"><a href="/">Contact us</a></li>
+          <li class="text-gray-100 mb-2 whitespace-nowrap"><a href="/about">About us</a></li>
+          <li class="text-gray-100 mb-2 whitespace-nowrap"><a href="/contact">Contact us</a></li>
         </ul>
-        <ul class="ml-24">
+        <ul class="mt-4 md:mt-0 md:ml-16 lg:ml-24">
+          <li class="text-base mb-4 text-gray-400"><strong>Learn</strong></li>
+          <li class="text-gray-100 mb-2 whitespace-nowrap"><a href="/blog">Blog</a></li>
+          <li class="text-gray-100 mb-2 whitespace-nowrap"><a href="/docs">Docs</a></li>
+        </ul>
+        <ul class="mt-4 md:mt-0 md:ml-16 lg:ml-24">
           <li class="text-base mb-4 text-gray-400"><strong>Legal</strong></li>
-          <li class="text-gray-100 mb-2"><a href="/policies/terms-of-service/">Terms of Service</a></li>
-          <li class="text-gray-100 mb-2"><a href="/policies/privacy-policy/">Privacy Policy</a></li>
-          <li class="text-gray-100"><a href="/policies/cookie-policy/">Cookie Policy</a></li>
+          <li class="text-gray-100 mb-2 whitespace-nowrap"><a href="/policies/terms-of-service/">Terms of Service</a></li>
+          <li class="text-gray-100 mb-2 whitespace-nowrap"><a href="/policies/privacy-policy/">Privacy Policy</a></li>
+          <li class="text-gray-100 whitespace-nowrap"><a href="/policies/cookie-policy/">Cookie Policy</a></li>
         </ul>
       </div>
     </div>
     <div class="border-gray-600 border-t"></div>
-    <div class="flex items-center justify-center py-6">
-      <span>Copyright © 2022 ProAutoma, Inc. All rights reserved</span>
+    <div class="text-center py-6">
+      <div class="flex justify-center pb-4">
+        <a href="/">
+          <img class="w-36" src={logoTitle} />
+        </a>
+      </div>
+      <div>Copyright © 2022 ProAutoma, Inc. All rights reserved</div>
     </div>
   </div>
 </div>

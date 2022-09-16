@@ -21,13 +21,13 @@
 
 <Layout title="Free API Monitoring and Testing | ProAutoma"
   description="ProAutoma is the next generation monitoring solution for your APIs and Websites. Easy to use, Powerful as needed, Global, Integrated alerts.">
-  <div class="mt-12 grid grid-cols-2 md:grid-cols-1 place-items-center">
+  <div class="mt-12 grid grid-cols-1 md:grid-cols-2 md:grid-cols-1 place-items-center">
     <div class="flex mt-12 align-middle">
       <div class="flex flex-col">
-        <h1 class='font-bold text-5xl'>
+        <h1 class='font-bold text-3xl md:text-4xl lg:text-5xl'>
           Proactive API and Website Monitoring
         </h1>
-        <p class="mt-12 text-gray-600 mb-4 text-xl leading-relaxed">
+        <p class="mt-12 text-gray-600 mb-4 text-base md:text-lg lg:text-xl leading-relaxed">
           ProAutoma is the next generation monitoring solution for your APIs and Websites. Easy to use, Powerful
           as needed, Global, Integrated alerts.</p>
       </div>
@@ -36,15 +36,15 @@
 
   </div>
 
-  <div class="relative mt-12 h-64 mx-auto">
+  <div class="relative mt-12 h-48 lg:h-64 mx-auto">
     {/* Call for Action */}
-    <div class="bg-gradient-callout py-10 px-2 text-white flex justify-around mx-auto items-center">
-      <p class="px-4 text-2xl font-light">
+    <div class="bg-gradient-callout py-10 px-6 text-white flex flex-col md:flex-row justify-around mx-auto items-center">
+      <p class="pb-6 md:pb-0 md:pr-4 text-lg md:text-xl lg:text-2xl font-light">
         Let us save you some time so you can use it for far better things
       </p>
 
       <a href={APP_URI + "/console/signup" }>
-        <button class="bg-white rounded-lg text-black text-2xl px-6 py-2">
+        <button class="bg-white rounded-lg text-black text-base md:text-xl lg:text-2xl px-6 py-2 whitespace-nowrap">
           Get Started
         </button>
       </a>
@@ -62,8 +62,8 @@
       <div class="flex-shrink-0 flex align-middle items-center justify-center rounded-full">
         <Icon name="fe:bar-chart" class="w-12 h-12 text-blue-600" />
       </div>
-      <h2 class="text-3xl text-bold my-4">Analytics: Uptime, Performance</h2>
-      <p class="text-xl mb-2">Availability and prompt response is essential for success. Every millisecond counts.
+      <h2 class="text-2xl lg:text-3xl text-bold my-4">Analytics: Uptime, Performance</h2>
+      <p class="text-lg lg:text-xl mb-2">Availability and prompt response is essential for success. Every millisecond counts.
         Uptime and performance statistics give insights for improvements. Understand and share your SLA.
       </p>
     </div>
@@ -72,14 +72,14 @@
       <div class="flex-shrink-0 flex align-middle items-center justify-center rounded-full">
         <Icon name="fe:shield" class="w-12 h-12 text-orange-600" />
       </div>
-      <h2 class="text-3xl text-bold my-4">Tests for Expectations</h2>
-      <p class="text-xl mb-2">Checks are small tests, not just access. Test for status codes, response body, JSON
+      <h2 class="text-2xl lg:text-3xl text-bold my-4">Tests for Expectations</h2>
+      <p class="text-lg lg:text-xl mb-2">Checks are small tests, not just access. Test for status codes, response body, JSON
         structure. Know when SSL certificates expire.
       </p>
     </div>
   </div>
 
-  <h2 class="leading-loose font-bold text-5xl text-center my-10">Global - Round the clock - Alerts</h2>
+  <h2 class="md:leading-loose font-bold text-3xl lg:text-5xl text-center my-10">Global - Round the clock - Alerts</h2>
 
   <div class="my-16 grid grid-cols-1 md:grid-cols-2 gap-10">
 
@@ -87,8 +87,8 @@
       <div class="flex-shrink-0 flex align-middle items-center justify-center rounded-full">
         <img class="w-12 h-12" src={speedometer} />
       </div>
-      <h2 class="text-3xl text-bold my-4">Setup in Seconds</h2>
-      <p class="text-xl mb-2">Get started with just a URL. Intuitive UI scales for complex setup. Programmable with
+      <h2 class="text-2xl lg:text-3xl text-bold my-4">Setup in Seconds</h2>
+      <p class="text-lg lg:text-xl mb-2">Get started with just a URL. Intuitive UI scales for complex setup. Programmable with
         JavaScript to go beyond UI. Environments enable reuse and flexibility.</p>
     </div>
 
@@ -97,8 +97,8 @@
       <div class="flex-shrink-0 flex align-middle items-center justify-center rounded-full">
         <Icon name="fe:globe" class="w-12 h-12 text-black-600" />
       </div>
-      <h2 class="text-3xl text-bold my-4">Global Locations</h2>
-      <p class="text-xl mb-2">Run checks from 12+ global locations. Understand availability and performance by location.
+      <h2 class="text-2xl lg:text-3xl text-bold my-4">Global Locations</h2>
+      <p class="text-lg lg:text-xl mb-2">Run checks from 12+ global locations. Understand availability and performance by location.
       </p>
     </div>
 
@@ -108,8 +108,8 @@
       <div class="flex-shrink-0 flex align-middle items-center justify-center rounded-full">
         <Icon name="fe:bell" class="w-12 h-12 text-orange-600" />
       </div>
-      <h2 class="text-3xl text-bold my-4">Get Alerted on Issues</h2>
-      <p class="text-xl mb-2">Alerts on your favorite channels from Email, Slack, Microsoft Teams, PagerDuty etc. Get
+      <h2 class="text-2xl lg:text-3xl text-bold my-4">Get Alerted on Issues</h2>
+      <p class="text-lg lg:text-xl mb-2">Alerts on your favorite channels from Email, Slack, Microsoft Teams, PagerDuty etc. Get
         alerted only when an issue happens for a time period or number of times.
       </p>
     </div>
@@ -118,8 +118,8 @@
       <div class="flex-shrink-0 flex align-middle items-center justify-center rounded-full">
         <Icon name="fe:users" class="w-12 h-12 text-blue-600" />
       </div>
-      <h2 class="text-3xl text-bold my-4">Work as a Team</h2>
-      <p class="text-xl mb-2">Collaborate with your team members and share the responsibility by role. Developers and
+      <h2 class="text-2xl lg:text-3xl text-bold my-4">Work as a Team</h2>
+      <p class="text-lg lg:text-xl mb-2">Collaborate with your team members and share the responsibility by role. Developers and
         DevOps and IT administrators have a single place to share.
       </p>
     </div>
@@ -129,8 +129,8 @@
       <div class="flex-shrink-0 flex align-middle items-center justify-center rounded-full">
         <Icon name="fe:share" class="w-12 h-12 text-green-600" />
       </div>
-      <h2 class="text-3xl text-bold my-4">Share Status with Customers</h2>
-      <p class="text-xl mb-2">Publish a public status webpage for your customers or teams. Anybody can see the latest
+      <h2 class="text-2xl lg:text-3xl text-bold my-4">Share Status with Customers</h2>
+      <p class="text-lg lg:text-xl mb-2">Publish a public status webpage for your customers or teams. Anybody can see the latest
         status for the selected checks. Personalize status with your Logo
       </p>
     </div>

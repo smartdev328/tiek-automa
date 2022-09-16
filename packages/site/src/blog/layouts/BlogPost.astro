@@ -1,6 +1,6 @@
 ---
 	import BaseHead from "../../components/BaseHead.astro";
-	import SiteHeader from "../../components/SiteHeader.astro";
+	import SiteHeader from "../../components/SiteHeader.jsx";
 	import SiteFooter from "../../components/SiteFooter.astro";
 
 	export interface Props {
@@ -28,7 +28,7 @@
 </head>
 
 <body class="home font-inter max-w-6xl min-h-screen mx-auto px-4 bg-neutral-100">
-	<SiteHeader />
+	<SiteHeader client:only="preact" />
 	<article class="wrapper content mx-auto prose">
 		<header>
 			{heroImage && (

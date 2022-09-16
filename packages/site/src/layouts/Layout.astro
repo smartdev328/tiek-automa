@@ -1,5 +1,5 @@
 ---
-	import SiteHeader from '../components/SiteHeader.astro'
+	import SiteHeader from '../components/SiteHeader.jsx'
 	import SiteFooter from '../components/SiteFooter.astro'
 	import BaseHead from "../components/BaseHead.astro";
 
@@ -22,7 +22,7 @@
 
 <body class="font-inter home bg-neutral-100">
 	<div class="max-w-6xl px-4 mx-auto">
-		<SiteHeader />
+		<SiteHeader client:only="preact" />
 	</div>
 	<div class="max-w-6xl min-h-screen px-4 mx-auto">
 		<slot />
