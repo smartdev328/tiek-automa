@@ -32,11 +32,11 @@
 		<SiteHeader client:only="preact" />
 	</div>
 	<!-- <Header currentPage={currentPage} /> -->
-	<main class="layout max-w-6xl min-h-screen px-4 pb-8 mx-auto">
+	<main class="layout max-w-6xl min-h-screen w-full px-4 pb-8 mx-auto">
 		<aside id="grid-left" class="grid-sidebar" title="Site Navigation">
 			<LeftSidebar currentPage={currentPage} />
 		</aside>
-		<div id="grid-main">
+		<div id="grid-main" class="px-0">
 			<PageContent content={content} githubEditUrl={githubEditUrl}>
 				<slot />
 			</PageContent>
