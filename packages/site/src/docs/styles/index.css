@@ -430,6 +430,11 @@ body {
   top: 2rem;
 }
 
+pre {
+  margin: 0;
+  max-width: 100%;
+}
+
 @media (min-width: 50em) {
   .layout {
     overflow: initial;
