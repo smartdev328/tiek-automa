@@ -34,7 +34,11 @@ Once the Url is chosen, the **Run now** button is enabled.
 
 ## Run now
 
-  **Run now** is a wonderful feature enables real time feedback during the monitor creation.  The output is shown in a separate pane to allow for continuous iteration.
+  **Run now** is a wonderful feature enabling real time feedback during the monitor creation and later.  It essential runs the check immediately and presents the results.  And, this is very useful when first creating a monitor to make sure its configured correctly and debug as needed.
+
+  Later, it is useful to know if the service is available right now and functioning correctly.
+
+  The output is shown in a separate pane to allow for continuous iteration.
 
 ## Advanced customizations
 
@@ -50,15 +54,15 @@ HTTP headers are essential part of the HTTP message. This tab allows to add head
 
 Many APIs require users to authenticate themselves.  Auth tab allows for two standard ways of authentication a) Basic and b) Bearer.
 
-Basic auth needs two inputs a) username and b) password
+**Basic** auth needs two inputs a) username and b) password
 
-Bearer auth requires a single Token input.
+**Bearer** auth requires a single Token input.
 
 ###  Setup Script
 
 Setup script is a place to provide JavaScript code that runs before making a monitoring request.
 
-Please see [Setup Script Guide](/en/setup-script-guide) for comprehensive documentation.
+Please see [Setup Script Guide](/docs/en/setup-script-guide) for comprehensive documentation.
 
 ### Query Params
 This tab allows to provide HTTP [query parameters](https://en.wikipedia.org/wiki/Query_string).
