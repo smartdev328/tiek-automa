@@ -1,5 +1,8 @@
 ---
   import logoTitle from '/assets/logo-white.svg'
+  import twitterImg from '/assets/twitter.svg'
+  import discordImg from '/assets/discord.svg'
+  import emailImg from '/assets/email.svg'
 ---
 
 <div class="text-white text-sm bg-footer-dark">
@@ -7,8 +10,27 @@
     <div class="flex flex-col md:flex-row py-10">
       <div>
         <div class="text-2xl lg:text-3xl text-wrap">Questions? Comments?<br>Concerns?</div>
+        <div class="mt-5">
+          <a class="bg-white text-base text-black px-4 py-2 rounded" href="https://discord.gg/CkCsSG39jr" target="_blank">
+            Chat to us on Discord
+          </a>
+        </div>
       </div>
       <div class="flex-1 flex-col md:flex-row flex items-start justify-end">
+        <ul class="mt-6 md:mt-0 md:ml-16 lg:ml-24">
+          <li class="text-base mb-4 text-gray-400"><strong>Community</strong></li>
+          <li class="text-gray-100 mb-2 whitespace-nowrap flex items-center justify-between">
+            <a href="https://twitter.com/proautomahq" target="_blank">
+              <img class="w-4" src={twitterImg} />
+            </a>
+            <a href="https://discord.gg/CkCsSG39jr" target="_blank">
+              <img class="w-4" src={discordImg} />
+            </a>
+            <a href="mailto:info@proautoma.com">
+              <img class="w-4" src={emailImg} />
+            </a>
+          </li>
+        </ul>
         <ul class="mt-6 md:mt-0 md:ml-16 lg:ml-24">
           <li class="text-base mb-4 text-gray-400"><strong>Company</strong></li>
           <li class="text-gray-100 mb-2 whitespace-nowrap"><a href="/about">About us</a></li>
