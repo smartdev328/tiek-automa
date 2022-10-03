@@ -32,7 +32,7 @@ We can introduce more flexibilty by making this a template.
 {{baseUrl}}/api/dog-breeds
 ```
 
-The double curly braces denote the slots and are filled in by the templating engine [Handlebars](https://handlebarsjs.com/).  To fill the slots, Handlebars is provided with a list of variables known as environment variables and a collection of which is named as Environment.  Please refer to Handlebars documentation for further reference of the template capabilities.  
+The **double curly braces** denote the slots (ex. ```{{BASE_URL}}```) and are filled in by the templating engine [Handlebars](https://handlebarsjs.com/).  To fill the slots, Handlebars is provided with a list of variables known as environment variables and a collection of which is named as Environment.  Please refer to Handlebars documentation for further reference of the template capabilities.  
 
 ### Global Environment
 Typically, start using the global environment.  Variables declared here are available to all monitors without further configuration.

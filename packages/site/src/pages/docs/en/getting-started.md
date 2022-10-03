@@ -6,10 +6,6 @@ i18nReady: true
 ---
 API Monitoring and testing 🚀  Global Locations   🚀  Round the clock
 
-:::tip
-Want to know eaxatly what API monitoring is? Follow the [API monioring guide](/docs/en/guides/api-monitoring/)!
-:::
-
 ## Create your first monitor
 
 We've made it as easy as possible to get started with Monitoring!

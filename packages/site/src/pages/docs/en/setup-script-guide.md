@@ -6,10 +6,6 @@ i18nReady: true
 ---
 API Monitoring and testing 🚀  Global Locations   🚀  Round the clock
 
-:::tip
-Want to know eaxatly what API monitoring is? Follow the [API monioring guide](/docs/en/guides/api-monitoring/)!
-:::
-
 ## Introduction
 
 A monitor can be setup in seconds with our easy to use editor. All that's really needed is a Url to get started!  However, there are complex situations where the input needed to setup a monitor is simply not available.  
