@@ -31,13 +31,19 @@ function SiteHeader() {
           </nav>
           <div className='flex items-center justify-end'>
             <a
+              href='https://api-checker.proautoma.com/'
+              className='rounded-lg font-bold text-blue-600 hover:text-blue-800 px-4 outline'
+            >
+              Free API Tester
+            </a>
+            <a href='https://app.proautoma.com/console/signup' className='text-black pl-4'>
+              <button className='rounded-lg p-2 bg-blue-600 text-white'>Get Started</button>
+            </a>
+            <a
               href='https://app.proautoma.com/console/signin'
               className='font-bold hover:text-gray-400 px-4'
             >
               Sign in
-            </a>
-            <a href='https://app.proautoma.com/console/signup' className='text-black pl-4'>
-              <button className='rounded-lg p-2 bg-blue-200'>Get Started</button>
             </a>
           </div>
         </div>
