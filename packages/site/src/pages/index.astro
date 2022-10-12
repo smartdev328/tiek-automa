@@ -1,7 +1,6 @@
 ---
   import Layout from '../layouts/Layout.astro'
   import { Icon } from 'astro-icon'
-  import blueDotGrid from '/assets/bluedot_grid.svg'
   import speedometer from '/assets/speedometer.svg'
   import FeatureCard from '../components/FeatureCard.astro'
 
@@ -19,28 +18,29 @@
   const ONDEMAND_URI = APP_URI + "/console/monitors/ondemand/"
 ---
 
-<Layout title="Free API Monitoring and Testing | ProAutoma"
-  description="ProAutoma is the next generation monitoring solution for your APIs and Websites. Easy to use, Powerful as needed, Global, Integrated alerts.">
-  <div class="mt-12 grid grid-cols-1 md:grid-cols-2 md:grid-cols-1 place-items-center">
+<Layout title="API Monitoring and Testing | ProAutoma"
+  description="ProAutoma is the next generation REST API and website monitoring solution. Setup in seconds, Programmable, Global, Integrated alerts.">
+
+  <div class="mt-12 grid grid-cols-1 md:grid-cols-1 place-items-center">
     <div class="flex mt-12 align-middle">
       <div class="flex flex-col">
         <h1 class='font-bold text-3xl md:text-4xl lg:text-5xl'>
           Proactive API and Website Monitoring
         </h1>
         <p class="mt-12 text-gray-600 mb-4 text-base md:text-lg lg:text-xl leading-relaxed">
-          ProAutoma is the next generation monitoring solution for your APIs and Websites. Easy to use, Powerful
-          as needed, Global, Integrated alerts.</p>
+          ProAutoma is the easiest REST API and Website monitoring solution. Setup in seconds in 3 simple steps.
+        </p>
       </div>
       <img class="object-contain hidden md:w-1/2 md:block" src="/assets/pa-flow.png" alt="flow" />
     </div>
-
   </div>
 
   <div class="relative mt-12 h-48 lg:h-64 mx-auto">
     {/* Call for Action */}
-    <div class="bg-gradient-callout py-10 px-6 text-white flex flex-col md:flex-row justify-around mx-auto items-center">
+    <div
+      class="bg-gradient-callout py-10 px-6 text-white flex flex-col md:flex-row justify-around mx-auto items-center">
       <p class="pb-6 md:pb-0 md:pr-4 text-lg md:text-xl lg:text-2xl font-light">
-        Let us save you some time so you can use it for far better things
+        Start with our Free Account with generous limits
       </p>
 
       <a href={APP_URI + "/console/signup" }>
@@ -51,9 +51,19 @@
     </div>
   </div>
 
+  <div class="mx-auto">
+    <h2 class='font-bold text-3xl md:text-4xl lg:text-5xl text-center mb-8'>
+      Setup in seconds
+    </h2>
+    <img class="object-contain hidden md:block" src="/assets/monitor-creation.png" alt="flow" />
+  </div>
+
+  <h2 class='font-bold text-3xl md:text-4xl lg:text-5xl text-center my-12'>
+    Features
+  </h2>
   <div class="mt-8 flex">
-    <FeatureCard title="Up, Down, As Expected?"
-      description="Run checks on your APIs and websites. Synthetic monitoring from 1-minute to 1-day intervals. Get alerted immediately about issues."
+    <FeatureCard title="Is it Up, Down, as Expected?"
+      description="Run checks on REST, SOAP, GraphQl APIs and websites. Synthetic monitoring from 1-minute to 1-day intervals. Get alerted immediately about issues."
       imageName="/assets/pa-dash-cards.png" icon="fe:activity" imageFirst={true} />
   </div>
 
@@ -63,7 +73,8 @@
         <Icon name="fe:bar-chart" class="w-12 h-12 text-blue-600" />
       </div>
       <h2 class="text-2xl lg:text-3xl text-bold my-4">Analytics: Uptime, Performance</h2>
-      <p class="text-lg lg:text-xl mb-2">Availability and prompt response is essential for success. Every millisecond counts.
+      <p class="text-lg lg:text-xl mb-2">Availability and prompt response is essential for success. Every millisecond
+        counts.
         Uptime and performance statistics give insights for improvements. Understand and share your SLA.
       </p>
     </div>
@@ -73,7 +84,8 @@
         <Icon name="fe:shield" class="w-12 h-12 text-orange-600" />
       </div>
       <h2 class="text-2xl lg:text-3xl text-bold my-4">Tests for Expectations</h2>
-      <p class="text-lg lg:text-xl mb-2">Checks are small tests, not just access. Test for status codes, response body, JSON
+      <p class="text-lg lg:text-xl mb-2">Checks are small tests, not just access. Test for status codes, response body,
+        JSON
         structure. Know when SSL certificates expire.
       </p>
     </div>
@@ -85,55 +97,66 @@
 
     <div class="flex flex-col items-start">
       <div class="flex-shrink-0 flex align-middle items-center justify-center rounded-full">
-        <img class="w-12 h-12" src={speedometer} />
-      </div>
-      <h2 class="text-2xl lg:text-3xl text-bold my-4">Setup in Seconds</h2>
-      <p class="text-lg lg:text-xl mb-2">Get started with just a URL. Intuitive UI scales for complex setup. Programmable with
-        JavaScript to go beyond UI. Environments enable reuse and flexibility.</p>
-    </div>
-
-
-    <div class="flex flex-col items-start">
-      <div class="flex-shrink-0 flex align-middle items-center justify-center rounded-full">
-        <Icon name="fe:globe" class="w-12 h-12 text-black-600" />
+        <Icon name="fe:globe" class="w-12 h-12 text-blue-600" />
       </div>
       <h2 class="text-2xl lg:text-3xl text-bold my-4">Global Locations</h2>
-      <p class="text-lg lg:text-xl mb-2">Run checks from 12+ global locations. Understand availability and performance by location.
+      <p class="text-lg lg:text-xl mb-2">Run checks from 12+ global locations. Understand availability and performance
+        by location.
       </p>
     </div>
-
-
 
     <div class="flex flex-col items-start">
       <div class="flex-shrink-0 flex align-middle items-center justify-center rounded-full">
         <Icon name="fe:bell" class="w-12 h-12 text-orange-600" />
       </div>
       <h2 class="text-2xl lg:text-3xl text-bold my-4">Get Alerted on Issues</h2>
-      <p class="text-lg lg:text-xl mb-2">Alerts on your favorite channels from Email, Slack, Microsoft Teams, PagerDuty etc. Get
-        alerted only when an issue happens for a time period or number of times.
+      <p class="text-lg lg:text-xl mb-2">get alerted on your favorite channels. Fine tune alerts to your needs - only
+        when an issue happens for a time period or number of times.
       </p>
     </div>
+
+    <div class="flex flex-col items-start">
+      <div class="flex-shrink-0 flex align-middle items-center justify-center rounded-full">
+        <Icon name="fe:sync" class="w-12 h-12 text-green-600" />
+      </div>
+      <h2 class="text-2xl lg:text-3xl text-bold my-4">Integrations</h2>
+      <p class="text-lg lg:text-xl mb-2">We integrate witn many popular messaging applications to reach you.
+        Alerts on your favorite channels from Email, Slack, Microsoft Teams, PagerDuty etc.
+      </p>
+    </div>
+
 
     <div class="flex flex-col items-start">
       <div class="flex-shrink-0 flex align-middle items-center justify-center rounded-full">
         <Icon name="fe:users" class="w-12 h-12 text-blue-600" />
       </div>
       <h2 class="text-2xl lg:text-3xl text-bold my-4">Work as a Team</h2>
-      <p class="text-lg lg:text-xl mb-2">Collaborate with your team members and share the responsibility by role. Developers and
-        DevOps and IT administrators have a single place to share.
+      <p class="text-lg lg:text-xl mb-2">Collaborate with your team members and share the responsibility by role.
+        Developers and DevOps and IT administrators have a single place to share.
       </p>
     </div>
 
 
     <div class="flex flex-col items-start">
       <div class="flex-shrink-0 flex align-middle items-center justify-center rounded-full">
-        <Icon name="fe:share" class="w-12 h-12 text-green-600" />
+        <Icon name="fe:share" class="w-12 h-12 text-teal-500" />
       </div>
       <h2 class="text-2xl lg:text-3xl text-bold my-4">Share Status with Customers</h2>
-      <p class="text-lg lg:text-xl mb-2">Publish a public status webpage for your customers or teams. Anybody can see the latest
-        status for the selected checks. Personalize status with your Logo
+      <p class="text-lg lg:text-xl mb-2">Publish a public status webpage for your customers or teams. Anybody can see
+        the latest status for the selected checks. Personalize status with your Logo
       </p>
     </div>
+
+    <div class="flex flex-col items-start">
+      <div class="flex-shrink-0 flex align-middle items-center justify-center rounded-full">
+        <Icon name="fe:code" class="w-12 h-12" />
+      </div>
+      <h2 class="text-2xl lg:text-3xl text-bold my-4">Programmable</h2>
+      <p class="text-lg lg:text-xl mb-2">Programmable by JavaScript scripting to go beyond UI. Use to setup custom
+        authentication and calls to external web services</p>
+    </div>
+
+
   </div>
 
 

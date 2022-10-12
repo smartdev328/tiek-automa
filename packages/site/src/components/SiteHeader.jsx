@@ -25,6 +25,12 @@ function SiteHeader() {
             <a href='/docs' className='font-bold hover:text-gray-400 px-4'>
               Docs
             </a>
+            <a
+              href='https://api-checker.proautoma.com/'
+              className='font-bold hover:text-gray-400 px-4'
+            >
+              Free Tools
+            </a>
             <a href='/about/' className='font-bold hover:text-gray-400 px-4'>
               About
             </a>
@@ -37,7 +43,7 @@ function SiteHeader() {
               Free API Tester
             </a>
             <a href='https://app.proautoma.com/console/signup' className='text-black pl-4'>
-              <button className='rounded-lg p-2 bg-blue-600 text-white'>Get Started</button>
+              <button className='rounded-lg p-2 bg-blue-600 text-white'>Free Account</button>
             </a>
             <a
               href='https://app.proautoma.com/console/signin'
@@ -110,6 +116,14 @@ function SiteHeader() {
                   href='/docs'
                 >
                   Docs
+                </a>
+              </li>
+              <li className='mb-1'>
+                <a
+                  className='block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded'
+                  href='https://api-checker.proautoma.com/'
+                >
+                  Free Tools
                 </a>
               </li>
               <li className='mb-1'>
