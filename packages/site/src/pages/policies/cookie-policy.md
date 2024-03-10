@@ -1,35 +1,34 @@
 ﻿---
 layout: ../../layouts/MarkdownLayout.astro
-title: Cookie Policy | ProAutoma
+title: Cookie Policy | AutomaWorld
 ---
 
-ProAutoma, Inc. Cookie Policy
+AutomaWorld, Inc. Cookie Policy
 Last updated July 20, 2022
 
-
 INTRODUCTION
-Proautoma, Inc. (“we” or “us” or “our”) may use cookies, web beacons, tracking pixels, and other tracking technologies when you visit our websites and web applications (such as www.proautoma.com), including any other media form, media channel, web application, mobile website, or mobile application related or connected thereto (collectively, the “Site”) to help customize the Site and improve your experience. 
+AutomaWorld, Inc. (“we” or “us” or “our”) may use cookies, web beacons, tracking pixels, and other tracking technologies when you visit our websites and web applications (such as www.AutomaWorld.com), including any other media form, media channel, web application, mobile website, or mobile application related or connected thereto (collectively, the “Site”) to help customize the Site and improve your experience.
 
-We reserve the right to make changes to this Cookie Policy at any time and for any reason. We will alert you about any changes by updating the “Last Updated” date of this Cookie Policy. Any changes or modifications will be effective immediately upon posting the updated Cookie Policy on the Site, and you waive the right to receive specific notice of each such change or modification. 
+We reserve the right to make changes to this Cookie Policy at any time and for any reason. We will alert you about any changes by updating the “Last Updated” date of this Cookie Policy. Any changes or modifications will be effective immediately upon posting the updated Cookie Policy on the Site, and you waive the right to receive specific notice of each such change or modification.
 
-You are encouraged to periodically review this Cookie Policy to stay informed of updates. You will be deemed to have been made aware of, will be subject to, and will be deemed to have accepted the changes in any revised Cookie Policy by your continued use of the Site after the date such revised Cookie Policy is posted. 
+You are encouraged to periodically review this Cookie Policy to stay informed of updates. You will be deemed to have been made aware of, will be subject to, and will be deemed to have accepted the changes in any revised Cookie Policy by your continued use of the Site after the date such revised Cookie Policy is posted.
 
 This Cookie Policy was created using Termly’s Cookie Consent Manager.
 
 USE OF COOKIES
 
-A “cookie” is a string of information which assigns you a unique identifier that we store on your computer. Your browser then provides that unique identifier to use each time you submit a query to the Site. We use cookies on the Site to, among other things, keep track of services you have used, record registration information, record your user preferences, keep you logged into the Site, facilitate purchase procedures, and track the pages you visit. Cookies help us understand how the Site is being used and improve your user experience. 
+A “cookie” is a string of information which assigns you a unique identifier that we store on your computer. Your browser then provides that unique identifier to use each time you submit a query to the Site. We use cookies on the Site to, among other things, keep track of services you have used, record registration information, record your user preferences, keep you logged into the Site, facilitate purchase procedures, and track the pages you visit. Cookies help us understand how the Site is being used and improve your user experience.
 
 TYPES OF COOKIES
 The following types of cookies may be used when you visit the Site:
 
 Advertising Cookies
 
-Advertising cookies are placed on your computer by advertisers and ad servers in order to display advertisements that are most likely to be of interest to you. These cookies allow advertisers and ad servers to gather information about your visits to the Site and other websites, alternate the ads sent to a specific computer, and track how often an ad has been viewed and by whom. These cookies are linked to a computer and do not gather any personal information about you. 
+Advertising cookies are placed on your computer by advertisers and ad servers in order to display advertisements that are most likely to be of interest to you. These cookies allow advertisers and ad servers to gather information about your visits to the Site and other websites, alternate the ads sent to a specific computer, and track how often an ad has been viewed and by whom. These cookies are linked to a computer and do not gather any personal information about you.
 
 Analytics Cookies
 
-Analytics cookies monitor how users reached the Site, and how they interact with and move around once on the Site. These cookies let us know what features on the Site are working the best and what features on the Site can be improved. 
+Analytics cookies monitor how users reached the Site, and how they interact with and move around once on the Site. These cookies let us know what features on the Site are working the best and what features on the Site can be improved.
 
 Our Cookies
 
@@ -37,7 +36,7 @@ Our cookies are “first-party cookies”, and can be either permanent or tempor
 
 Personalization Cookies
 
-Personalization cookies are used to recognize repeat visitors to the Site. We use these cookies to record your browsing history, the pages you have visited, and your settings and preferences each time you visit the Site. 
+Personalization cookies are used to recognize repeat visitors to the Site. We use these cookies to record your browsing history, the pages you have visited, and your settings and preferences each time you visit the Site.
 
 Security Cookies
 
@@ -49,11 +48,10 @@ Site management cookies are used to maintain your identity or session on the Sit
 
 Third-Party Cookies
 
-Third-party cookies may be place on your computer when you visit the Site by companies that run certain services we offer. These cookies allow the third parties to gather and track certain information about you. These cookies can be manually disabled in your browser. 
-
+Third-party cookies may be place on your computer when you visit the Site by companies that run certain services we offer. These cookies allow the third parties to gather and track certain information about you. These cookies can be manually disabled in your browser.
 
 CONTROL OF COOKIES
-Most browsers are set to accept cookies by default. However, you can remove or reject cookies in your browser’s settings. Please be aware that such action could affect the availability and functionality of the Site. 
+Most browsers are set to accept cookies by default. However, you can remove or reject cookies in your browser’s settings. Please be aware that such action could affect the availability and functionality of the Site.
 
 For more information on how to control cookies, check your browser or device’s settings for how you can control or reject cookies.
 
@@ -67,4 +65,4 @@ For more information about how we use information collected by cookies and other
 
 CONTACT US
 If you have questions or comments about this Cookie Policy,  
-please contact us at privacy@proautoma.com
+please contact us at privacy@AutomaWorld.com

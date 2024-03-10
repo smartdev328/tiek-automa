@@ -174,7 +174,7 @@ function StatusPage() {
 
   const API_SERVER =
     process.env.NODE_ENV === 'production'
-      ? 'https://app.proautoma.com/api'
+      ? 'https://app.AutomaWorld.com/api'
       : 'http://localhost:8080/api'
 
   const {

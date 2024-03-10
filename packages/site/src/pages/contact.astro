@@ -2,11 +2,11 @@
   import Layout from '../layouts/Layout.astro'
   import ContactForm from '../components/ContactForm.jsx'
 
-  let APP_URI = import.meta.env.DEV ? 'http://localhost:8080' : 'https://app.proautoma.com'
+  let APP_URI = import.meta.env.DEV ? 'http://localhost:8080' : 'https://app.AutomaWorld.com'
 
 ---
 
-<Layout title="Our Story | ProAutoma" description="">
+<Layout title="Our Story | AutomaWorld" description="">
 
   <h1 class='text-3xl md:text-4xl lg:text-5xl my-10 md:my-12 lg:my-16 text-center font-bold '>Contact us</h1>
   <ContactForm appUri={APP_URI} client:only="preact"></ContactForm>

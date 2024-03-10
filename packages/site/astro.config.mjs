@@ -8,7 +8,7 @@ export default defineConfig({
   server: {
     port: 3001,
   },
-  site: 'https://www.proautoma.com',
+  site: '',
   legacy: {
     astroFlavoredMarkdown: true,
   },

@@ -4,7 +4,7 @@ import { Header } from '../components'
 
 function NotFound() {
   useEffect(() => {
-    document.title = '404 - Not Found | ProAutoma'
+    document.title = '404 - Not Found | AutomaWorld'
   }, [])
 
   return (

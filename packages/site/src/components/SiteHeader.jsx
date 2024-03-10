@@ -26,7 +26,7 @@ function SiteHeader() {
               Docs
             </a>
             <a
-              href='https://api-checker.proautoma.com/'
+              href='https://api-checker.AutomaWorld.com/'
               className='font-bold hover:text-gray-400 px-4'
             >
               Free Tools
@@ -37,16 +37,16 @@ function SiteHeader() {
           </nav>
           <div className='flex items-center justify-end'>
             <a
-              href='https://api-checker.proautoma.com/'
+              href='https://api-checker.AutomaWorld.com/'
               className='rounded-lg font-bold text-blue-600 hover:text-blue-800 px-4 outline'
             >
               Free API Tester
             </a>
-            <a href='https://app.proautoma.com/console/signup' className='text-black pl-4'>
+            <a href='https://app.AutomaWorld.com/console/signup' className='text-black pl-4'>
               <button className='rounded-lg p-2 bg-blue-600 text-white'>Free Account</button>
             </a>
             <a
-              href='https://app.proautoma.com/console/signin'
+              href='https://app.AutomaWorld.com/console/signin'
               className='font-bold hover:text-gray-400 px-4'
             >
               Sign in
@@ -121,7 +121,7 @@ function SiteHeader() {
               <li className='mb-1'>
                 <a
                   className='block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded'
-                  href='https://api-checker.proautoma.com/'
+                  href='https://api-checker.AutomaWorld.com/'
                 >
                   Free Tools
                 </a>
@@ -145,7 +145,7 @@ function SiteHeader() {
               <li className='mt-8 mb-1'>
                 <a
                   className='block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded'
-                  href='https://app.proautoma.com/console/signin'
+                  href='https://app.AutomaWorld.com/console/signin'
                 >
                   Sign in
                 </a>
@@ -153,7 +153,7 @@ function SiteHeader() {
               <li className='mb-1'>
                 <a
                   className='block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded'
-                  href='https://app.proautoma.com/console/signup'
+                  href='https://app.AutomaWorld.com/console/signup'
                 >
                   Get Started
                 </a>

@@ -1,4 +1,4 @@
-## Welcome to ProAutoma web sites
+## Welcome to AutomaWorld web sites
 
 Repo contains web site projects.
 
@@ -6,9 +6,9 @@ Repo contains web site projects.
 
 ### Installation
 
-* Run `pnpm install` to setup nodejs 
+- Run `pnpm install` to setup nodejs
 
-* Then, the following command brings up dev server
-`pnpm run dev`
+- Then, the following command brings up dev server
+  `pnpm run dev`
 
-* Open vscode webistes workspace from the root folder
+- Open vscode webistes workspace from the root folder

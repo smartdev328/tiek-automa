@@ -7,7 +7,7 @@ function Footer() {
       <Text variant='paragraph' color='gray.300'>
         Powered by&nbsp;
       </Text>
-      <Link href='https://www.proautoma.com'>
+      <Link href=''>
         <Image src={logoTitle} h='6' mr='2' />
       </Link>
     </Flex>
